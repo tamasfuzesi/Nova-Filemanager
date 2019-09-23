@@ -12,12 +12,12 @@ class FolderRemoved
     /**
      * @var mixed
      */
-    protected $storage;
+    public $storage;
 
     /**
      * @var mixed
      */
-    protected $folderPath;
+    public $folderPath;
 
     /**
      * Create a new event instance.

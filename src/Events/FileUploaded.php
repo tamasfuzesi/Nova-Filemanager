@@ -12,12 +12,12 @@ class FileUploaded
     /**
      * @var mixed
      */
-    protected $storage;
+    public $storage;
 
     /**
      * @var mixed
      */
-    protected $filePath;
+    public $filePath;
 
     /**
      * Create a new event instance.
